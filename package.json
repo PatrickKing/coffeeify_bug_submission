@@ -1,0 +1,10 @@
+{
+  "name": "demo-app",
+  "version": "1.0.0",
+  "dependencies": {
+    "coffeeify": "^1.0.0"
+  },
+  "scripts": {
+    "bundle": "browserify -t coffeeify --extension='.coffee' --debug app.js -o app-compiled.js"
+  }
+}
